@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap');
+
+body {
+  background: radial-gradient(ellipse at bottom, #022227 0%, #000000 100%);
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  margin: 0;
+  font-size: 20vh;
+  letter-spacing: 1vw;
+  position: absolute;
+  top: 25vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background: url(./4863446.jpg);
+  background-size: auto 200%;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s linear infinite;
+}
+@keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
+
+h2 {
+  font-size: 2vh;
+  color: white;
+  position: absolute;
+  top: 46vh;
+  left: 50%;
+  margin: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: white
+}
+
+div.contact {
+  position: absolute;
+  top: 60vh;
+  left: 55%;
+}
+
+div.footer {
+  position: absolute;
+  top: 90vh;
+  width: 100%;
+  text-align: center;
+}
+
+p.footer-text {
+  color: #264653;
+}
