@@ -10,13 +10,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 h1 {
-  margin: 0;
   font-size: 20vh;
   letter-spacing: 1vw;
-  position: absolute;
   top: 25vh;
   left: 50%;
   transform: translateX(-50%);
+  margin: 0;
+  position: absolute;
   color: white;
   background: url(./4863446.jpg);
   background-size: auto 200%;
@@ -36,11 +36,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2vh;
   color: white;
   position: absolute;
-  top: 46vh;
-  left: 50%;
   margin: 0;
 }
 
@@ -66,3 +63,81 @@ div.footer {
 p.footer-text {
   color: #2b4955;
 }
+
+@media (min-width: 1200px) { 
+  h1 {
+    font-size: 20vh;
+    letter-spacing: 1vw;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h2 {
+    font-size: 2vh;
+    top: 46vh;
+    left: 50%;
+  }
+  
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+  h1 {
+    font-size: 15vh;
+    letter-spacing: 1vw;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h2 {
+    font-size: 2vh;
+    top: 46vh;
+    left: 35%;
+  }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991.98px){ 
+  h1 {
+    font-size: 10vh;
+    letter-spacing: 1vw;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h2 {
+    font-size: 2vh;
+    top: 46vh;
+    left: 12%;
+  }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+  h1 {
+    font-size: 8vh;
+    letter-spacing: 1vw;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h2 {
+    font-size: 2vh;
+    top: 46vh;
+  }
+ } 
+
+ @media (max-width: 575.98px) { 
+  h1 {
+    font-size: 6vh;
+    letter-spacing: 1vw;
+    top: 25vh;
+    left: 8%;
+    transform: translateY(-50%);
+  }
+  h2 {
+    font-size: 2.5vh;
+    top: 40vh;
+    left: 8%;
+  }
+  div.contact {
+    left: 8%;
+  }
+ } 
